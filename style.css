@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Concert+One&family=Lugrasimo&family=Madimi+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.navbar {
+    padding: 0 !important;
+}
+
+.navbar-brand a {
+    font-size: 26px !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+    font-weight: 700 !important;
+}
+
+.nlinks {
+    font-size: 12px !important;
+}
+
+.nlinks a:hover {
+    color: #009970 !important;
+}
+
+.navbt {
+    font-size: 12px !important;
+}
+
+.heroSec h1 {
+    font-size: 48px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700 !important;
+    color: #fff;
+    margin: 0 0 10px 0;
+
+}
+
+.heroSec h2 {
+    color: #eee !important;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 500;
+
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.heroSec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    min-height: 80vh;
+}
+
+.heroSec button {
+    background: transparent;
+    padding: 10px 30px;
+    color: #ffff;
+    border: 3px solid #ffff;
+}
+
+.heroSec button:hover {
+    background-color: #009970;
+    border: #009970;
+    transition-duration: 0.50s;
+    border: 3px solid #009970;
+}
+
+.logos {
+    background-color: #F6F6F7;
+}
+
+.icons img {
+    height: 25px;
+    filter: grayscale(100%);
+}
+
+.icons img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+/* main  */
+
+.mfirst h1 {
+    color: #444444;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.mfirst h3 {
+    color: #444444;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px !important;
+}
+
+.mfirst li {
+    font-size: 17px !important;
+}
+
+.mfirst h5 {
+    font-size: 17px !important;
+}
+
+.mfirst p {
+    font-size: 16px !important;
+}
+
+.numbers {
+    background-color: #009970;
+}
+
+.ycontent {
+    background-color: #009970;
+
+}
+
+.ycontent h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.ycontent button {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 6px 30px 8px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: all ease-in-out 0.4s;
+    border: none;
+}
+
+.ycontent button:hover {
+    color: #009970;
+    background: #fff;
+}
+
+.ibox i {
+    color: #009970;
+
+}
+
+/* CTA section */
+
+.cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(0, 0, 0, 0.7)), url("../img/cta-bg.jpg") fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.cta h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.cta button {
+    background: transparent;
+    padding: 10px 30px;
+    color: #ffff;
+    border: 3px solid #ffff;
+
+}
+
+.cta button:hover {
+    background-color: #009970;
+    border: 3px solid #009970;
+    transition-duration: 0.50s;
+}
+
+/* service sec  */
+.service {
+    background-color: #F6F6F7;
+}
+
+.service h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #444444;
+}
+
+.border {
+    background-color: #009970;
+    height: 5px;
+    width: 15%;
+    margin: 10px 0;
+}
+
+.boxs i {
+    padding: 20px;
+    border: 1px solid #009970;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #009970;
+
+}
+
+.boxs {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+
+}
+
+/* portfolio sec  */
+
+.border2 {
+    background-color: #009970;
+    height: 5px;
+    width: 15%;
+    margin: 10px 0;
+}
+
+
+.portfolio .nav-link {
+    color: black !important;
+}
+
+.portfolio .nav-link.active {
+    background-color: #009970 !important;
+    color: white !important;
+    padding: 5px 20px;
+    border-radius: 20px !important;
+}
+
+/* testimonials sec start  */
+
+.testimonials {
+    background-color: #F6F6F7;
+}
+
+.testimonials h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #444444;
+}
+
+.testcard h4 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/* team sec  */
+
+.teamsec h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #444444;
+}
+
+.tcard h3 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #444444;
+}
+
+.tcard img {
+    height: 150px;
+}
+
+.slinks i {
+    margin: 0 10px;
+    color: white;
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* contact sec start  */
+
+.contact h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: #444444;
+}
+
+.contact p {
+    font-size: 17px;
+}
+
+.location i {
+    color: white;
+    background-color: #009970;
+    padding: 15px;
+
+
+}
+
+.email i {
+    color: white;
+    background-color: #009970;
+    padding: 15px;
+
+
+}
+
+.call i {
+    color: white;
+    background-color: #009970;
+    padding: 15px;
+}
+
+.msgbt button {
+    padding: 10px 25px;
+    color: white;
+    background-color: #009970;
+    border: none;
+
+}
+
+/* footer  */
+footer {
+    background-color: #F9F8F9;
+}
+
+.footer-links ul li {
+    list-style-type: none;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links li i {
+    color: #009970;
+}
+
+footer h4 {
+    font-size: 20px !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.footer-newsletter p {
+    font-size: 17px;
+    padding: 20px 0;
+}
+
+.footer-contact h3 {
+    font-family: "Raleway", sans-serif;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.mailll {
+    padding: 10px 30px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.sbt {
+    margin-left: -20px;
+    padding: 10px 20px;
+    border: 1px solid #009970;
+    color: white;
+    background-color: #009970;
+}
+
+@media(max-width:1100px) {
+
+    /* .subscribe input{
+        padding: 10px !important;
+    }  */
+    .sbt {
+        padding: 10px 10px !important;
+    }
+
+    .mailll {
+        padding: 5px !important;
+    }
+}
+
+@media(max-width:1400px) {
+    .navbt {
+        padding: 0 0 !important;
+    }
+
+    .navbar-nav {
+        width: 85% !important;
+        text-align: center !important;
+    }
+}
+
+@media(max-width:576px) {
+    .navbar {
+        background-color: #009970;
+    }
+
+    .navbar a {
+        font-size: 17px!important;
+        margin: 0 !important;
+    }
+
+    .navbar ul {
+        gap: 0 !important;
+    }
+
+    .heroSec h1 {
+        font-size: 30px;
+    }
+
+    .icons img {
+        height: 20px;
+    }
+    .navbt{
+visibility: hidden;
+    }
+}
